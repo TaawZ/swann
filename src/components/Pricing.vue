@@ -38,7 +38,6 @@ export default {};
 
 <style scoped>
 h1 {
-	color: #a01037;
 	font-size: 24px;
 }
 

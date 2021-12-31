@@ -29,8 +29,21 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
-#app {
+h1 {
 	font-family: "Yeseva One", sans-serif;
+	color: #a01037;
+}
+
+h2 {
+	font-family: "Yeseva One", sans-serif;
+}
+
+p {
+	font-size: 18px;
+	color: white;
+}
+
+#app {
 	background-color: rgba(45, 45, 45);
 }
 </style>

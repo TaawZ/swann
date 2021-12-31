@@ -31,6 +31,7 @@ h1 {
 }
 
 p {
+	color: #80767a;
 	font-size: 18px;
 }
 </style>
