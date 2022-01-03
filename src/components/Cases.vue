@@ -1,39 +1,7 @@
 <template>
-	<v-container>
-		<v-row align="center">
-			<v-col class="Kali" md="4"> <v-btn color="#005262" href="cas"> Cas de Kali</v-btn></v-col>
-			<v-col class="Talvara" md="4"><v-btn color="#005262" href="cas">Cas de Talvara</v-btn></v-col>
-			<v-col class="Phoenix" md="4"><v-btn color="#005262" href="cas">Cas de Phoenix</v-btn></v-col>
-		</v-row>
-	</v-container>
+	<v-row align="center" no-gutters>
+		<v-col md="4" align="center"><v-img height="400" width="100%" src="../assets/Kali.jpg"></v-img> <v-btn color="#005262" href="cas"> Cas de Kali</v-btn></v-col>
+		<v-col md="4" align="center"><v-img height="400" width="100%" src="../assets/talvara.png"></v-img><v-btn color="#005262" href="cas">Cas de Talvara</v-btn></v-col>
+		<v-col md="4" align="center"><v-img height="400" width="100%" src="../assets/IMG_1483.jpg"></v-img><v-btn color="#005262" href="cas">Cas de Phoenix</v-btn></v-col>
+	</v-row>
 </template>
-
-<style scoped>
-.Kali {
-	background: url("../assets/Kali.jpg");
-	background-size: cover;
-	height: 50vh;
-	font-size: 45px;
-	color: #005262;
-	display: flex;
-	justify-content: center;
-}
-.Talvara {
-	background: url("../assets/talvara.png");
-	background-size: cover;
-	height: 50vh;
-	font-size: 45px;
-	color: #005262;
-	display: flex;
-	justify-content: center;
-}
-.Phoenix {
-	background: url("../assets/IMG_1483.jpg");
-	background-size: cover;
-	height: 50vh;
-	font-size: 45px;
-	color: #005262;
-	display: flex;
-	justify-content: center;
-}
-</style>

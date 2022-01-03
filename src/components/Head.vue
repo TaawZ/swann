@@ -3,7 +3,7 @@
 		<v-row justify="center" align="center">
 			<v-toolbar-title> <v-img src="../assets/logo-blanc-transparent.png" max-height="130" max-width="130"></v-img> </v-toolbar-title>
 			<v-toolbar-items>
-				<v-btn color="primary" elevation="0" v-for="link in links" :key="link" :to="{ name: link }">
+				<v-btn class="button-text" color="primary" elevation="0" v-for="link in links" :key="link" :to="{ name: link }">
 					{{ link }}
 				</v-btn>
 			</v-toolbar-items>
@@ -17,8 +17,14 @@ export default {
 
 	data() {
 		return {
-			links: ["Acceuil", "Vous êtes professionnels ?", "Vous êtes particuliers ?", "L'ostéopathie-consultation", "Prendre rendez-vous", "Les cas", "Le blog"],
+			links: ["Accueil", "Vous êtes professionnels ?", "Vous êtes particuliers ?", "L'ostéopathie-consultation", "Prendre rendez-vous", "Les cas", "Le blog"],
 		};
 	},
 };
 </script>
+
+<style scoped>
+.button-text {
+	font-size: 9px;
+}
+</style>

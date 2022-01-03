@@ -4,8 +4,8 @@
 		<Carousel />
 		<RowPic />
 		<Skills />
-		<Pricing />
 		<Form />
+		<Pricing />
 	</v-main>
 </template>
 

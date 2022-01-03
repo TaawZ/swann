@@ -1,7 +1,7 @@
 <template>
 	<v-app>
-		<Head v-if="$vuetify.breakpoint.mdAndUp" />
-		<MobileNav v-if="$vuetify.breakpoint.smAndDown" />
+		<Head v-if="$vuetify.breakpoint.lgAndUp" />
+		<MobileNav v-if="$vuetify.breakpoint.mdAndDown" />
 		<v-main>
 			<router-view></router-view>
 		</v-main>
