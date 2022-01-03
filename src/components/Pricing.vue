@@ -1,7 +1,7 @@
 <template>
 	<v-container>
 		<v-row>
-			<v-col md="3"></v-col>
+			<v-col md="3" v-if="$vuetify.breakpoint.mdAndUp"></v-col>
 			<v-col>
 				<h1>Tarifs et lots</h1>
 				<v-row>
@@ -27,7 +27,7 @@
 				</p>
 				<div>*Prix sans les frais de déplacement.</div>
 			</v-col>
-			<v-col md="3"></v-col>
+			<v-col md="3" v-if="$vuetify.breakpoint.mdAndUp"></v-col>
 		</v-row>
 	</v-container>
 </template>
@@ -38,11 +38,11 @@ export default {};
 
 <style scoped>
 h1 {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 span {
-	font-size: 24px;
+	font-size: 22px;
 	color: white;
 	margin-bottom: 10px;
 }

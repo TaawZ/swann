@@ -6,13 +6,6 @@
 				<v-btn color="primary" elevation="0" v-for="link in links" :key="link" :to="{ name: link }">
 					{{ link }}
 				</v-btn>
-				<!--	<v-btn color="primary" elevation="0"> Acceuil</v-btn>
-				<v-btn color="primary" elevation="0"> Vous êtes professionnels ?</v-btn>
-				<v-btn color="primary" elevation="0"> Vous êtes particuliers ?</v-btn>
-				<v-btn color="primary" elevation="0"> L'osthéopathie-consultation</v-btn>
-				<v-btn color="primary" elevation="0"> Prendre rendez-vous</v-btn>
-				<v-btn color="primary" elevation="0"> Les cas</v-btn>
-				<v-btn color="primary" elevation="0"> Le blog</v-btn>-->
 			</v-toolbar-items>
 		</v-row>
 	</v-toolbar>

@@ -1,7 +1,7 @@
 <template>
 	<v-container>
 		<v-row>
-			<v-col md="2"></v-col>
+			<v-col md="2" v-if="$vuetify.breakpoint.mdAndUp"></v-col>
 			<v-col justify="center" align="center" md="4">
 				<h1>1</h1>
 				<h2>EFOA</h2>

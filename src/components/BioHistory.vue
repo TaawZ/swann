@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<v-card class="pa-16" color="white">
+		<v-card flat class="pa-16" color="white">
 			<v-row align="center">
 				<v-col align="center" justify="center" md="6">
 					<h1>L'histoire de l'ostéopathie</h1>

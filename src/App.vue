@@ -1,6 +1,7 @@
 <template>
 	<v-app>
-		<Head />
+		<Head v-if="$vuetify.breakpoint.mdAndUp" />
+		<MobileNav v-if="$vuetify.breakpoint.smAndDown" />
 		<v-main>
 			<router-view></router-view>
 		</v-main>
@@ -11,6 +12,7 @@
 <script>
 import Head from "./components/Head";
 import Footer from "./components/Footer";
+import MobileNav from "./components/MobileNav";
 
 export default {
 	name: "App",
@@ -18,6 +20,7 @@ export default {
 	components: {
 		Head,
 		Footer,
+		MobileNav,
 	},
 
 	data: () => ({

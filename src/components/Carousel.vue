@@ -1,13 +1,17 @@
 <template>
-	<v-container>
+	<v-container class="pa-16">
 		<v-carousel>
 			<v-carousel-item v-for="(titles, i) in titles" :key="i">
-				<v-sheet height="100%" tile>
+				<v-sheet color="primary" height="100%" tile>
 					<v-row align="center" justify="center">
 						<h1 color="buttons" class="mt-12">{{ titles }}</h1>
 					</v-row>
 					<v-row class="pa-16">
-						<p class="pa-16" width="50%">{{ p[i] }}</p>
+						<v-col md="3"></v-col>
+						<v-col md="6">
+							<p>{{ p[i] }}</p>
+						</v-col>
+						<v-col md="3"></v-col>
 					</v-row>
 				</v-sheet>
 			</v-carousel-item>
