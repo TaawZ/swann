@@ -1,7 +1,7 @@
 <template>
-	<v-container>
-		<v-row>
-			<v-col align="center" justify="center">
+	<v-row>
+		<v-col color="white" align="center" justify="center">
+			<v-card tile flat class="pa-6">
 				<h1>Les motifs de consultation</h1>
 				<h2>Ils sont nombreux, voici une liste non exhaustive :</h2>
 				<p>
@@ -14,7 +14,7 @@
 					Après une visite chez le vétérinaire. <br />
 					Problème digestif / viscéral / génital chronique.
 				</p>
-			</v-col>
-		</v-row>
-	</v-container>
+			</v-card>
+		</v-col>
+	</v-row>
 </template>
