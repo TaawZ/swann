@@ -1,20 +1,18 @@
 <template>
-	<v-container color="primary">
-		<v-card class="pa-4" color="primary" elevation="20">
-			<v-row justify="center" align="center">
-				<v-col md="6" v-if="$vuetify.breakpoint.mdAndUp">
-					<iframe width="100%" height="400" src="https://www.youtube.com/embed/4_W2s9kLF6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</v-col>
-				<v-col md="6">
-					<h1>Qui suis-je</h1>
-					<p class="white--text">
-						Swann Rétière <br />
-						Je suis ostéopathe pour animaux diplômé de l'école française d'ostéopathie pour animaux. Je suis à l'écoute de vous et votre animal.
-					</p>
-				</v-col>
-			</v-row>
-		</v-card>
-	</v-container>
+	<v-card flat tile class="pa-4">
+		<v-row justify="center" align="center">
+			<v-col md="6" v-if="$vuetify.breakpoint.mdAndUp">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/4_W2s9kLF6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</v-col>
+			<v-col md="6">
+				<h1>Qui suis-je</h1>
+				<p>
+					Swann Rétière <br />
+					Je suis ostéopathe pour animaux diplômé de l'école française d'ostéopathie pour animaux. Je suis à l'écoute de vous et votre animal.
+				</p>
+			</v-col>
+		</v-row>
+	</v-card>
 </template>
 
 <script>

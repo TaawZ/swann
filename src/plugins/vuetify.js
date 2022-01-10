@@ -11,7 +11,7 @@ export default new Vuetify({
 		options: { customProperties: true },
 		themes: {
 			light: {
-				primary: "#2d2d2d", // grey
+				primary: "#C4C4C4", // grey
 				buttons: "#a01037", // red
 			},
 		},

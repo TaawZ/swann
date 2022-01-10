@@ -1,5 +1,5 @@
 <template>
-	<v-container>
+	<v-card flat tile class="pa-4">
 		<v-row>
 			<v-col md="6"><v-img src="../assets/IMG_1481.jpg"></v-img></v-col>
 			<v-col align="center" justify="center" md="6">
@@ -20,13 +20,12 @@
 				<span>Swann - Ostéopathe pour animaux </span>
 			</v-col>
 		</v-row>
-	</v-container>
+	</v-card>
 </template>
 
 <style scoped>
 p {
 	font-size: 18px;
-	color: white;
 }
 
 h1 {

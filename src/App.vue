@@ -3,7 +3,9 @@
 		<Head v-if="$vuetify.breakpoint.lgAndUp" />
 		<MobileNav v-if="$vuetify.breakpoint.mdAndDown" />
 		<v-main>
-			<router-view></router-view>
+			<v-container>
+				<router-view></router-view>
+			</v-container>
 		</v-main>
 		<Footer />
 	</v-app>
@@ -43,10 +45,10 @@ h2 {
 
 p {
 	font-size: 18px;
-	color: white;
+	color: #80767a;
 }
 
 #app {
-	background-color: rgba(45, 45, 45);
+	background-color: #c4c4c4;
 }
 </style>

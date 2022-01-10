@@ -1,33 +1,31 @@
 <template>
-	<v-container>
-		<v-card class="my-16" color="#005262">
-			<v-row>
-				<v-col></v-col>
-				<v-col>
-					<h1>Disponible du lundi au samedi pour les consultations. Urgence : disponible 7/7 et 24/24h</h1>
-					<p>Je me déplace dans la région de Normandie et dans le département des Yvelines</p>
-				</v-col>
-				<v-col></v-col>
-			</v-row>
-			<v-row color="white">
-				<v-col md="4" v-if="$vuetify.breakpoint.mdAndUp"></v-col>
-				<v-col md="4">
-					<v-form class="pl-4 pr" ref="form" v-model="valid" lazy-validation>
-						<v-text-field v-model="Nom" :rules="NomRules" label="Nom" required></v-text-field>
+	<v-card tile flat>
+		<v-row>
+			<v-col></v-col>
+			<v-col>
+				<h1>Disponible du lundi au samedi pour les consultations. Urgence : disponible 7/7 et 24/24h</h1>
+				<p>Je me déplace dans la région de Normandie et dans le département des Yvelines</p>
+			</v-col>
+			<v-col></v-col>
+		</v-row>
+		<v-row color="white">
+			<v-col md="4" v-if="$vuetify.breakpoint.mdAndUp"></v-col>
+			<v-col md="4">
+				<v-form class="pl-4 pr" ref="form" v-model="valid" lazy-validation>
+					<v-text-field v-model="Nom" :rules="NomRules" label="Nom" required></v-text-field>
 
-						<v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
+					<v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
 
-						<v-text-field v-model="bjet" :rules="objetRules" label="Objet" required></v-text-field>
+					<v-text-field v-model="bjet" :rules="objetRules" label="Objet" required></v-text-field>
 
-						<v-text-field v-model="message" :rules="messageRules" label="Message" required></v-text-field>
-						<v-row class="pb-16" align="center" justify="center">
-							<v-btn :disabled="!valid" color="success" class="mr-4" @click="validate"> Envoyer </v-btn>
-						</v-row>
-					</v-form>
-				</v-col>
-			</v-row>
-		</v-card>
-	</v-container>
+					<v-text-field v-model="message" :rules="messageRules" label="Message" required></v-text-field>
+					<v-row class="pb-16" align="center" justify="center">
+						<v-btn :disabled="!valid" color="buttons" class="white--text mr-4" @click="validate"> Envoyer </v-btn>
+					</v-row>
+				</v-form>
+			</v-col>
+		</v-row>
+	</v-card>
 </template>
 
 <script>
@@ -52,6 +50,6 @@ p {
 	color: #80767a;
 }
 h1 {
-	color: white;
+	color: #80767a;
 }
 </style>

@@ -1,20 +1,18 @@
 <template>
-	<v-container>
-		<v-card color="primary" elevation="10">
-			<v-carousel hide-delimiters>
-				<v-carousel-item v-for="(titles, i) in titles" :key="i">
-					<v-sheet class="pt-16" align="center" color="primary" height="100%" tile>
-						<h1 class="pt-16 mt-6" color="buttons">{{ titles }}</h1>
-						<v-col md="3"></v-col>
-						<v-col md="6">
-							<p>{{ p[i] }}</p>
-						</v-col>
-						<v-col md="3"></v-col>
-					</v-sheet>
-				</v-carousel-item>
-			</v-carousel>
-		</v-card>
-	</v-container>
+	<v-card tile flat>
+		<v-carousel hide-delimiters>
+			<v-carousel-item v-for="(titles, i) in titles" :key="i">
+				<v-sheet class="pt-16" align="center" height="100%" tile>
+					<h1 class="pt-16 mt-6" color="buttons">{{ titles }}</h1>
+					<v-col md="3"></v-col>
+					<v-col md="6">
+						<p>{{ p[i] }}</p>
+					</v-col>
+					<v-col md="3"></v-col>
+				</v-sheet>
+			</v-carousel-item>
+		</v-carousel>
+	</v-card>
 </template>
 
 <script>

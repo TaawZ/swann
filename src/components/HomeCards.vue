@@ -1,22 +1,22 @@
 <template>
-	<v-row class="mt-16" align="center" justify="center">
-		<v-col>
-			<v-card flat align="center" justify="center" color="primary">
-				<v-img src="../assets/IMG_4719.jpg" class="pt-16" width="600" height="600">
+	<v-row no-gutters align="center" justify="center">
+		<v-col md="6">
+			<v-card class="pa-16" flat align="center" justify="center">
+				<v-img src="../assets/IMG_4719.jpg" width="650" height="600">
 					<v-card-title font-size="24" justify="center" class="title mt-16 justify-center white--text"> Vous êtes éleveur, propriétaire d'haras..... </v-card-title>
 					<v-card-title class="mt-16 justify-center white--text"> PROFESSIONNELS</v-card-title>
 					<v-card-title></v-card-title>
-					<v-btn rounded large class="white--text mt-13" color="buttons"> En savoir plus </v-btn></v-img
-				>
+					<v-btn rounded large class="white--text mt-13" href="professionnels" color="buttons"> En savoir plus </v-btn>
+				</v-img>
 			</v-card>
 		</v-col>
-		<v-col>
-			<v-card align="center" justify="center" flat color="primary">
-				<v-img src="../assets/IMG_1549.jpg" class="pt-16" width="600" height="600">
+		<v-col md="6">
+			<v-card class="pa-16" align="center" justify="center" flat>
+				<v-img src="../assets/IMG_1549.jpg" width="650" height="600">
 					<v-card-title class="mt-16 justify-center white--text"> Vous avez un animal domestique </v-card-title>
 					<v-card-subtitle class="white--text"> (chien, chat, cheval, nouveaux animaux de compagnie...)</v-card-subtitle>
 					<v-card-title class="mt-16 justify-center white--text"> PARTICULIERS</v-card-title>
-					<v-btn rounded large class="white--text mt-16" color="buttons"> En savoir plus </v-btn>
+					<v-btn rounded large class="white--text mt-16" href="Particuliers" color="buttons"> En savoir plus </v-btn>
 				</v-img>
 			</v-card>
 		</v-col>

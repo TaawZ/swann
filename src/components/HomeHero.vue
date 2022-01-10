@@ -1,14 +1,12 @@
 <template>
-	<v-container>
-		<v-card flat color="primary" align="center" justify="center">
-			<v-img class="pt-16" max-width="100%" max-height="600" src="../assets/IMG_1496.jpg">
-				<h1 class="mt-16">Swann Rétière</h1>
-				<h2 class="white--text">Ostéopathe pour animaux</h2>
-				<h3 class="white--text">Pour apporter un soin global à votre animal</h3>
-				<v-btn rounded large class="white--text mt-6" color="buttons" href="Rendezvous">Prendre rendez-vous</v-btn>
-			</v-img>
-		</v-card>
-	</v-container>
+	<v-card flat color="primary" align="center" justify="center">
+		<v-img class="pt-16" max-width="100%" max-height="600" src="../assets/IMG_1496.jpg">
+			<h1 class="mt-16">Swann Rétière</h1>
+			<h2 class="white--text">Ostéopathe pour animaux</h2>
+			<h3 class="white--text">Pour apporter un soin global à votre animal</h3>
+			<v-btn rounded large class="white--text mt-6" color="buttons" href="Rendezvous">Prendre rendez-vous</v-btn>
+		</v-img>
+	</v-card>
 </template>
 
 <script>

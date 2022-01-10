@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<v-card class="pa-16" color="#f2f3f2" elevation="10">
+		<v-card tile flat class="pa-16" color="white">
 			<v-row justify="center">
 				<h1>Le déroulement d'une séance</h1>
 			</v-row>
@@ -59,10 +59,10 @@
 				</p>
 			</v-col>
 		</v-card>
-		<v-card color="primary">
+		<v-card class="mt-6" color="white">
 			<v-col class="pa-16" align="center">
 				<h1>Le devoir du praticien n'est pas de guérir la maladie mais ajuster une partie ou l'ensemble du système afin que les fleuves de la vie puissent s'écouler et irriguer les champs desséchés</h1>
-				<span class="white--text">Andrew Taylor STILL </span>
+				<span>Andrew Taylor STILL </span>
 			</v-col>
 		</v-card>
 	</v-container>
