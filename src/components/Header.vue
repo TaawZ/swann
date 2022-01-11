@@ -1,6 +1,7 @@
 <template>
 	<v-row class="pt-4 my-color">
 		<v-col></v-col>
+		<v-spacer></v-spacer>
 		<v-col>
 			<v-row>
 				<v-icon color="white">mdi-map-marker</v-icon>

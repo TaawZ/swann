@@ -1,6 +1,6 @@
 <template>
 	<v-app>
-		<Header />
+		<Header v-if="$vuetify.breakpoint.lgAndUp" />
 		<Head v-if="$vuetify.breakpoint.lgAndUp" />
 		<MobileNav v-if="$vuetify.breakpoint.mdAndDown" />
 		<v-main>
