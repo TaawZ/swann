@@ -4,8 +4,19 @@
 		<Carousel />
 		<RowPic />
 		<Skills />
-		<Form />
 		<Pricing />
+		<v-row v-if="$vuetify.breakpoint.lgAndUp" no-gutters>
+			<v-col>
+				<Leaflet />
+			</v-col>
+			<v-col>
+				<Form />
+			</v-col>
+		</v-row>
+		<v-col v-if="$vuetify.breakpoint.mdAndDown">
+			<Leaflet />
+			<Form />
+		</v-col>
 	</v-main>
 </template>
 
@@ -16,6 +27,7 @@ import RowPic from "../components/RowPic";
 import Skills from "../components/Skills";
 import Pricing from "../components/Pricing";
 import Form from "../components/Form";
+import Leaflet from "../components/Leaflet";
 export default {
 	name: "App",
 	components: {
@@ -25,6 +37,7 @@ export default {
 		Skills,
 		Pricing,
 		Form,
+		Leaflet,
 	},
 };
 </script>

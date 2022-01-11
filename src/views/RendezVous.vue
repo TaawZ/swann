@@ -2,12 +2,12 @@
 	<main>
 		<RdvHero />
 		<RdvPic />
-		<Form />
+		<BiggerForm />
 	</main>
 </template>
 
 <script>
-import Form from "../components/Form";
+import BiggerForm from "../components/BiggerForm";
 import RdvHero from "../components/RdvHero";
 import RdvPic from "../components/RdvPic";
 
@@ -16,7 +16,7 @@ export default {
 	components: {
 		RdvHero,
 		RdvPic,
-		Form,
+		BiggerForm,
 	},
 };
 </script>

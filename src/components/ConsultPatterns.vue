@@ -1,7 +1,7 @@
 <template>
 	<v-row>
-		<v-col color="white" align="center" justify="center">
-			<v-card tile flat class="pa-6">
+		<v-col align="center" justify="center">
+			<v-card tile color="#615e5a" flat class="pa-6">
 				<h1>Les motifs de consultation</h1>
 				<h2>Ils sont nombreux, voici une liste non exhaustive :</h2>
 				<p>
@@ -18,3 +18,20 @@
 		</v-col>
 	</v-row>
 </template>
+
+<style scoped>
+h1 {
+	color: white;
+	font-size: 24px;
+}
+
+h2 {
+	color: #80767a;
+	font-size: 18px;
+}
+
+p {
+	color: white;
+	font-size: 18px;
+}
+</style>

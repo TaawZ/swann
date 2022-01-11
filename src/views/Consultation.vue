@@ -3,6 +3,7 @@
 		<HeroConsults />
 		<ConsultPatterns />
 		<Session />
+		<Quote />
 		<BioHistory />
 	</v-main>
 </template>
@@ -12,6 +13,7 @@ import HeroConsults from "../components/HeroConsults";
 import ConsultPatterns from "../components/ConsultPatterns";
 import Session from "../components/Session";
 import BioHistory from "../components/BioHistory";
+import Quote from "../components/Quote";
 export default {
 	name: "Consultation",
 	components: {
@@ -19,6 +21,7 @@ export default {
 		ConsultPatterns,
 		Session,
 		BioHistory,
+		Quote,
 	},
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-	<v-card flat tile class="pa-4">
+	<v-card flat color="#615e5a" tile class="pa-4">
 		<v-row>
 			<v-col md="6"><v-img src="../assets/IMG_1481.jpg"></v-img></v-col>
 			<v-col align="center" justify="center" md="6">
@@ -26,16 +26,17 @@
 <style scoped>
 p {
 	font-size: 18px;
+	color: white;
 }
 
 h1 {
 	font-size: 32px;
-	color: #a01037;
+	color: white;
 }
 
 h2 {
 	font-size: 24px;
-	color: #a01037;
+	color: white;
 }
 
 span {

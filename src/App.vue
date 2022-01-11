@@ -33,7 +33,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
 h1 {
 	font-family: "Yeseva One", sans-serif;
 	color: #a01037;
@@ -43,7 +43,12 @@ h2 {
 	font-family: "Yeseva One", sans-serif;
 }
 
+span {
+	font-family: "Crimson Pro", serif;
+}
+
 p {
+	font-family: "Crimson Pro", serif;
 	font-size: 18px;
 	color: #80767a;
 }
