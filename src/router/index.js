@@ -30,7 +30,7 @@ const router = new Router({
 			component: Particuliers,
 		},
 		{
-			path: "/ostéopathie",
+			path: "/consultations",
 			name: "L'ostéopathie-consultation",
 			component: Consultation,
 		},

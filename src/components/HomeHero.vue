@@ -13,7 +13,6 @@
 <script>
 import Head from "./Head";
 export default {
-	name: "HomeHero",
 	components: Head,
 };
 </script>

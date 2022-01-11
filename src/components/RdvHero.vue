@@ -3,7 +3,7 @@
 		<h1>Prenez un rendez-vous en ligne</h1>
 		<h2 class="white--text">Vous avez déjà fait appel à mes services ?</h2>
 		<h3 class="white--text">Accédez directement à mes disponibilités sur mon agenda en ligne.</h3>
-		<v-btn rounded large class="white--text mt-6" color="buttons">Cliquez-ici</v-btn>
+		<v-btn rounded large class="white--text mt-6" href="https://calendar.google.com/calendar/u/1/r?cid=OHNsYjhhMTdkbmRwZzk1Y3NsaDc2MHN1dGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" color="buttons">Cliquez-ici</v-btn>
 	</v-container>
 </template>
 

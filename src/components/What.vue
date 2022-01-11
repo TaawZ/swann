@@ -7,7 +7,7 @@
 					Découvrez les bienfaits de l'ostéopathie pour animaux, les principes, les actualités,<br />
 					les évolutions de la recherche...
 				</h2>
-				<v-btn rounded large class="mt-4 white--text" color="buttons"> En savoir plus </v-btn>
+				<v-btn rounded large class="mt-4 white--text" href="consultations" color="buttons"> En savoir plus </v-btn>
 			</v-img>
 		</v-col>
 	</v-row>

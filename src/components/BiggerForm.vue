@@ -1,18 +1,18 @@
 <template>
-	<v-card color="#615e5a" class="pa-16" align="center" justify="center" tile flat>
+	<v-card color="#f5f7f9" class="pa-16" align="center" justify="center" tile flat>
 		<v-row class="pa-16">
 			<v-col text-align="center" justify="center">
 				<h1 class="mb-6">Je me déplace dans la région de Normandie et dans le département des <br />Yvelines</h1>
 				<h1>06 16 08 19 41</h1>
 
 				<v-form class="pl-4" ref="form" v-model="valid" lazy-validation>
-					<v-text-field class="here" v-model="Nom" :rules="NomRules" outlined label="Nom" required></v-text-field>
+					<v-text-field v-model="Nom" :rules="NomRules" outlined label="Nom" required></v-text-field>
 
-					<v-text-field class="here" v-model="email" :rules="emailRules" outlined label="E-mail" required></v-text-field>
+					<v-text-field v-model="email" :rules="emailRules" outlined label="E-mail" required></v-text-field>
 
-					<v-text-field class="here" v-model="bjet" :rules="objetRules" outlined label="Objet" required></v-text-field>
+					<v-text-field v-model="bjet" :rules="objetRules" outlined label="Objet" required></v-text-field>
 
-					<v-text-field class="here" v-model="message" :rules="messageRules" outlined label="Message" required></v-text-field>
+					<v-text-field v-model="message" :rules="messageRules" outlined label="Message" required></v-text-field>
 
 					<v-btn :disabled="!valid" color="buttons" class="rounded white--text mr-4" @click="validate"> Envoyer </v-btn>
 				</v-form>
@@ -41,18 +41,11 @@ export default {
 </script>
 
 <style scoped>
-.here {
-	padding: 0px !important;
-	margin: 0px !important;
-	background-color: white;
-}
 p {
-	color: white;
 	font-family: "Crimson Pro", serif;
 	font-size: 18px;
 }
 h1 {
-	color: white;
 	font-family: "Crimson Pro", serif;
 	font-size: 24px;
 }
